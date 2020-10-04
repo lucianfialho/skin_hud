@@ -39,17 +39,11 @@ export default {
       rightActiveTab: 1,
       leftTabs: [{
         name: 'Parents',
-<<<<<<< HEAD
-        properties: [{
-         name: 'Father Face',
-         value: 0
-=======
         properties: [
         {
           name: 'Father Face',
           value: 0,
           min: 1
->>>>>>> 24b4445741c2492c6dd8e0324973fa32b8a5e8b5
         },
         {
           name: 'Father ancestry',
