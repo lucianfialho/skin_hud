@@ -1,0 +1,368 @@
+{
+    "leftActiveTab": 1,
+	"rightActiveTab": 1,
+
+	"leftTabs": [
+		{
+			"name": "Parents", 
+			"properties": [
+			{
+				"name": "Father Face",
+				"value": 0,
+				"min": 0,
+				"max": 45
+			},
+			{
+				"name": "Father ancestry",
+				"value": 0,
+				"min": 0,
+				"max": 45
+			},
+			{
+				"name": "Mother Face",
+				"value": 0,
+				"min": 0,
+				"max": 45
+			},
+			{
+				"name": "Mother ancestry",
+				"value": 0,
+				"min": 0,
+				"max": 45
+			},
+			{
+				"name": "Face dominant gene",
+				"value": 0,
+				"min": -100,
+				"max": 100
+			},
+			{
+				"name": "Ancestry dominant gene",
+				"value": 0,
+				"min": -100,
+				"max": 100
+			}
+			]
+		},
+		{
+			"name": "Eyes",
+			"properties": [
+			{
+				"name": "Eye state",
+				"value": 0,
+				"min": -1,
+				"max": 1
+			},
+			{
+				"name": "Eye color",
+				"value": 0,
+				"min": 0,
+				"max": 31
+			},
+			{
+				"name": "Eyebrows",
+				"value": 0,
+				"min": 0,
+				"max": 33
+			},
+			{
+				"name": "Eyebrow color",
+				"value": 0,
+				"min": 0,
+				"max": 64
+			},
+			{
+				"name": "Brow width",
+				"value": 0,
+				"min": -1,
+				"max": 1
+			},
+			{
+				"name": "Brow shape",
+				"value": 0,
+				"min": -1,
+				"max": 1
+			}
+			]
+		},
+		{
+			"name": "Nose",
+			"properties": [
+			{
+				"name": "Nose Width",
+				"value": 0,
+				"min": -1,
+				"max": 1
+			},
+			{
+				"name": "Nose height",
+				"value": 0,
+				"min": -1,
+				"max": 1
+			},
+			{
+				"name": "Nose length",
+				"value": 0,
+				"min": -1,
+				"max": 1
+			},
+			{
+				"name": "Nose bridge shift",
+				"value": 0,
+				"min": -1,
+				"max": 1
+			},
+			{
+				"name": "Nose tip",
+				"value": 0,
+				"min": -1,
+				"max": 1
+			},
+			{
+				"name": "Nose shift",
+				"value": 0,
+				"min": -1,
+				"max": 1
+			}
+			]
+		},
+		{
+			"name": "Chin",
+			"properties": [
+			{
+				"name": "Chin length",
+				"value": 0,
+				"min": -1,
+				"max": 1
+			},
+			{
+				"name": "Chin position",
+				"value": 0,
+				"min": -1,
+				"max": 1
+			},
+			{
+				"name": "Chin width",
+				"value": 0,
+				"min": -1,
+				"max": 1
+			},
+			{
+				"name": "Chin height",
+				"value": 0,
+				"min": -1,
+				"max": 1
+			},
+			{
+				"name": "Jaw width",
+				"value": 0,
+				"min": -1,
+				"max": 1
+			},
+			{
+				"name": "Jaw height",
+				"value": 0,
+				"min": -1,
+				"max": 1
+			}
+			]
+		},
+		{
+			"name": "Cheek",
+			"properties": [
+			{
+				"name": "Cheekbone height",
+				"value": 0,
+				"min": -1,
+				"max": 1
+			},
+			{
+				"name": "Cheekbone width",
+				"value": 0,
+				"min": -1,
+				"max": 1
+			},
+			{
+				"name": "Cheeks width",
+				"value": 0,
+				"min": -1,
+				"max": 1
+			}
+			]
+		},
+		{
+			"name": "Lips",
+			"properties": [
+			{
+				"name": "Lips width",
+				"value": 0,
+				"min": -1,
+				"max": 1
+			}
+			]
+		},
+		{
+			"name": "Neck",
+			"properties": [
+			{
+				"name": "Neck height",
+				"value": 0,
+				"min": -1,
+				"max": 1
+			}
+			]
+		}
+	],
+
+	"rightTabs": [
+		{
+			"name": "Face",
+			"properties": [
+			{
+				"name": "Blemishes",
+				"value": 0,
+				"min": 0,
+				"max": 24
+			},
+			{
+				"name": "Freckles",
+				"value": 0,
+				"min": 0,
+				"max": 18
+			},
+			{
+				"name": "Complexion",
+				"value": 0,
+				"min": 0,
+				"max": 12
+			},
+			{
+				"name": "Blush",
+				"value": 0,
+				"min": 0,
+				"max": 7
+			},
+			{
+				"name": "Blush color",
+				"value": 0,
+				"min": 0,
+				"max": 63
+			}
+			]
+		},
+		{
+			"name": "Hair",
+			"properties": [
+				{
+					"name": "Hair",
+					"value": 0,
+					"min": 0,
+					"max": 37
+				},
+				{
+					"name": "Hair color",
+					"value": 0,
+					"min": 0,
+					"max": 63
+				},
+				{
+					"name": "Hair highlight",
+					"value": 0,
+					"min": 0,
+					"max": 63
+				}
+			]
+		},
+		{
+			"name": "Beard",
+			"properties": [
+				{
+					"name": "Beard",
+					"value": 0,
+					"min": 0,
+					"max": 28
+				},
+				{
+					"name": "Beard color",
+					"value": 0,
+					"min": 0,
+					"max": 63
+				}
+			]
+		},
+		{
+			"name": "Makeup",
+			"properties": [
+				{
+					"name": "Makeup",
+					"value": 0,
+					"min": 0,
+					"max": 71
+				},
+				{
+					"name": "Lipstick",
+					"value": 0,
+					"min": 0,
+					"max": 9
+				},
+				{
+					"name": "Lipstick color",
+					"value": 0,
+					"min": 0,
+					"max": 63
+				}
+			]
+		},
+		{
+			"name": "Ageing",
+			"properties": [
+				{
+					"name": "Ageing",
+					"value": 0,
+					"min": 0,
+					"max": 14
+				}
+			]
+		},
+		{
+			"name": "Chest",
+			"properties": [
+				{
+					"name": "Chest hair",
+					"value": 0,
+					"min": 0,
+					"max": 16
+				},
+				{
+					"name": "Chest hair color",
+					"value": 0,
+					"min": 0,
+					"max": 63
+				}
+			]
+		},
+		{
+			"name": "Body",
+			"properties": [
+				{
+					"name": "Sun damage",
+					"value": 0,
+					"min": 0,
+					"max": 11
+				},
+				{
+					"name": "Body blemishes",
+					"value": 0,
+					"min": 0,
+					"max": 12
+				},
+				{
+					"name": "More body blemishes",
+					"value": 0,
+					"min": 0,
+					"max": 1
+				}
+			]
+		}
+	]
+}
