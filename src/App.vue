@@ -4,7 +4,7 @@
       <b-tabs v-model="activeTab">
         <b-tab-item v-for="tab in leftTabs" v-bind:key="tab.id" :label="tab.name">
           <b-field v-for="property in tab.properties" v-bind:key="property.id" :label="property.name">
-            <b-slider :min="1" :value="property.value" :max="10" ticks></b-slider>
+            <b-slider :min="property.min" :value="property.value" :max="property.max" ticks></b-slider>
         </b-field>
         </b-tab-item>
       </b-tabs>
@@ -16,7 +16,7 @@
       <b-tabs v-model="activeTab">
         <b-tab-item v-for="tab in rightTabs" v-bind:key="tab.id" :label="tab.name">
           <b-field v-for="property in tab.properties" v-bind:key="property.id" :label="property.name">
-            <b-slider :min="1" :value="property.value" :max="10" ticks></b-slider>
+            <b-slider :min="property.min" :value="property.value" :max="property.max" ticks></b-slider>
         </b-field>
         </b-tab-item>
       </b-tabs>
