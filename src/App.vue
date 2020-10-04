@@ -66,151 +66,151 @@ export default {
 
 	rightTabs: [
 		{
-		  	name: 'Face',
+		  	name: 'Face', // Rosto
 		  	properties: [
 			{
-				name: 'Blemishes',
+				name: 'Blemishes', // Manchas
 				value: 0,
-				min: 1,
-				max: 10,
+				min: 0,
+				max: 24,
 			},
 			{
-				name: 'Freckles',
+				name: 'Freckles', // Sardas
 				value: 0,
-				min: 1,
-				max: 10,
+				min: 0,
+				max: 18,
 			},
 			{
-				name: 'Complexion',
+				name: 'Complexion', // Aspecto
 				value: 0,
-				min: 1,
-				max: 10,
+				min: 0,
+				max: 12,
 			},
 			{
-				name: 'Blush',
+				name: 'Blush', // Blush
 				value: 0,
-				min: 1,
-				max: 10,
+				min: 0,
+				max: 7,
 			},
 			{
-				name: 'Blush color',
+				name: 'Blush color', // Cor do Blush
 				value: 0,
-				min: 1,
-				max: 10,
+				min: 0,
+				max: 63,
 			},
 		  ],
 		},
 		{
-		  	name: 'Hair',
+		  	name: 'Hair', // Cabelo
 		  	properties: [
 				{
-					name: 'Hair',
+					name: 'Hair', // Cabelo
 					value: 0,
-					min: 1,
-					max: 10,
+					min: 0,
+					max: 37,
 				},
 				{
-					name: 'Hair color',
+					name: 'Hair color', // Cor do Cabelo
 					value: 0,
-					min: 1,
-					max: 10,
+					min: 0,
+					max: 63,
 				},
 				{
-					name: 'Hair highlight',
+					name: 'Hair highlight', // Cor do Secundária do Cabelo
 					value: 0,
-					min: 1,
-					max: 10,
+					min: 0,
+					max: 63,
 				},
 			]
 		},
 		{
-		  	name: 'Beard',
+		  	name: 'Beard', // Barba
 		  	properties: [
 				{
-					name: 'Beard',
+					name: 'Beard', // Barba
 					value: 0,
-					min: 1,
-					max: 10,
+					min: 0,
+					max: 28,
 				},
 				{
-					name: 'Beard color',
+					name: 'Beard color', // Cor da Barba
 					value: 0,
-					min: 1,
-					max: 10,
+					min: 0,
+					max: 63,
 				}
 			]
 		},
 		{
-		  	name: 'Makeup',
+		  	name: 'Makeup', // Maquiagem
 		  	properties: [
 				{
-					name: 'Makeup',
+					name: 'Makeup', // Maquiagem
 					value: 0,
-					min: 1,
-					max: 10,
+					min: 0,
+					max: 71,
 				},
 				{
-					name: 'Lipstick',
+					name: 'Lipstick', // Batom
 					value: 0,
-					min: 1,
-					max: 10,
+					min: 0,
+					max: 9,
 				},
 				{
-					name: 'Lipstick color',
+					name: 'Lipstick color', // Cor do Batom
 					value: 0,
-					min: 1,
-					max: 10,
+					min: 0,
+					max: 63,
 				}
 			]
 		},
 		{
-		  	name: 'Ageing',
+		  	name: 'Ageing', // Envelhecimento
 		  	properties: [
 				{
-					name: 'Ageing',
+					name: 'Ageing', // Envelhecimento
 					value: 0,
-					min: 1,
-					max: 10,
+					min: 0,
+					max: 14,
 				}
 			]
 		},
 		{
-		  	name: 'Chest',
+		  	name: 'Chest', // Pelo Corporal
 		  	properties: [
 				{
-					name: 'Chest hair',
+					name: 'Chest hair', // Pelo Corporal
 					value: 0,
-					min: 1,
-					max: 10,
+					min: 0,
+					max: 16,
 				},
 				{
-					name: 'Chest hair color',
+					name: 'Chest hair color', // Cor do Pelo Corporal
 					value: 0,
-					min: 1,
-					max: 10,
+					min: 0,
+					max: 63,
 				}
 			]
 		},
 		{
-		  	name: 'Body',
+		  	name: 'Body', // Corpo
 		  	properties: [
 				{
-					name: 'Sun damage',
+					name: 'Sun damage', // Dano Solar
 					value: 0,
-					min: 1,
-					max: 10,
+					min: 0,
+					max: 11,
 				},
 				{
-					name: 'Body blemishes',
+					name: 'Body blemishes', // Manchas no Corpo
 					value: 0,
-					min: 1,
-					max: 10,
+					min: 0,
+					max: 12,
 				},
 				{
-					name: 'More body blemishes',
+					name: 'More body blemishes', // Mais manchas corporais
 					value: 0,
-					min: 1,
-					max: 10,
+					min: 0,
+					max: 1,
 				}
 			]
 		},
@@ -218,211 +218,211 @@ export default {
 
 	leftTabs: [
 		{
-		  	name: 'Parents',
+		  	name: 'Parents', // Pais
 		  	properties: [
 			{
-				name: 'Father Face',
+				name: 'Father Face', // Rosto do pai
 				value: 0,
-				min: 1,
-				max: 10,
+				min: 0,
+				max: 45,
 			},
 			{
-				name: 'Father ancestry',
+				name: 'Father ancestry', // Ascendência do pai
 				value: 0,
-				min: 1,
-				max: 10,
+				min: 0,
+				max: 45,
 			},
 			{
-				name: 'Mother Face',
+				name: 'Mother Face', // Rosto da mãe
 				value: 0,
-				min: 1,
-				max: 10,
+				min: 0,
+				max: 45,
 			},
 			{
-				name: 'Mother ancestry',
+				name: 'Mother ancestry', // Ascendência da mãe
 				value: 0,
-				min: 1,
-				max: 10,
+				min: 0,
+				max: 45,
 			},
 			{
-				name: 'Face dominant gene',
+				name: 'Face dominant gene', // Rosto gene dominante
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -100,
+				max: 100,
 			},
 			{
-				name: 'Ancestry dominant gene',
+				name: 'Ancestry dominant gene', // Gene ancestral dominante
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -100,
+				max: 100,
 			},
 		  ],
 		},
 		{
-		  	name: 'Eyes',
+		  	name: 'Eyes', // Olhos
 		  	properties: [
 			{
-				name: 'Eye state',
+				name: 'Eye state', // Estado dos olhos
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -1,
+				max: 1,
 			},
 			{
-				name: 'Eye color',
+				name: 'Eye color', // Cor dos olhos
 				value: 0,
-				min: 1,
-				max: 10,
+				min: 0,
+				max: 31,
 			},
 			{
-				name: 'Eyebrows',
+				name: 'Eyebrows', // Sobrancelhas
 				value: 0,
-				min: 1,
-				max: 10,
+				min: 0,
+				max: 33,
 			},
 			{
-				name: 'Eyebrow color',
+				name: 'Eyebrow color', // Cor da sobrancelha
 				value: 0,
-				min: 1,
-				max: 10,
+				min: 0,
+				max: 64,
 			},
 			{
-				name: 'Brow width',
+				name: 'Brow width', // Largura da sobrancelha
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -1,
+				max: 1,
 			},
 			{
-				name: 'Brow shape',
+				name: 'Brow shape', // Formato da sobrancelha
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -1,
+				max: 1,
 			},
 		  ],
 		},
 		{
-		  	name: 'Nose',
+		  	name: 'Nose', // Nariz
 		  	properties: [
 			{
-				name: 'Nose Width',
+				name: 'Nose Width', // Largura do nariz
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -1,
+				max: 1,
 			},
 			{
-				name: 'Nose height',
+				name: 'Nose height', // Altura do nariz
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -1,
+				max: 1,
 			},
 			{
-				name: 'Nose length',
+				name: 'Nose length', // Comprimento do nariz
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -1,
+				max: 1,
 			},
 			{
-				name: 'Nose bridge shift',
+				name: 'Nose bridge shift', // Mudança da ponte do nariz
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -1,
+				max: 1,
 			},
 			{
-				name: 'Nose tip',
+				name: 'Nose tip', // Ponta do nariz
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -1,
+				max: 1,
 			},
 			{
-				name: 'Nose shift',
+				name: 'Nose shift', // Mudança de nariz
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -1,
+				max: 1,
 			},
 		  ],
 		},
 		{
-		  	name: 'Chin',
+		  	name: 'Chin', // Queixo
 		  	properties: [
 			{
-				name: 'Chin length',
+				name: 'Chin length', // Comprimento do queixo
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -1,
+				max: 1,
 			},
 			{
-				name: 'Chin position',
+				name: 'Chin position', // Posição do queixo
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -1,
+				max: 1,
 			},
 			{
-				name: 'Chin width',
+				name: 'Chin width', // Largura do queixo
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -1,
+				max: 1,
 			},
 			{
-				name: 'Chin height',
+				name: 'Chin height', // Altura do queixo
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -1,
+				max: 1,
 			},
 			{
-				name: 'Jaw width',
+				name: 'Jaw width', // Largura da mandíbula
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -1,
+				max: 1,
 			},
 			{
-				name: 'Jaw height',
+				name: 'Jaw height', // Altura da mandíbula
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -1,
+				max: 1,
 			},
 		  ],
 		},
 		{
-		 	name: 'Cheek',
+		 	name: 'Cheek', // Bochecha
 		  	properties: [
 			{
-				name: 'Cheekbone height',
+				name: 'Cheekbone height', // Altura da bochecha
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -1,
+				max: 1,
 			},
 			{
-				name: 'Cheekbone width',
+				name: 'Cheekbone width', // Largura da bochecha
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -1,
+				max: 1,
 			},
 			{
-				name: 'Cheeks width',
+				name: 'Cheeks width', // Largura das bochechas
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -1,
+				max: 1,
 			},
 		  ],
 		},
 		{
-		  	name: 'Lips',
+		  	name: 'Lips', // Lábios
 		  	properties: [
 			{
-				name: 'Lips width',
+				name: 'Lips width', // Largura dos lábios
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -1,
+				max: 1,
 			},
 		  ],
 		},
 		{
-		  	name: 'Neck',
+		  	name: 'Neck', // Altura do pescoço
 		  	properties: [
 			{
-				name: 'Neck height',
+				name: 'Neck height', // Altura do pescoço
 				value: 0,
-				min: 1,
-				max: 10,
+				min: -1,
+				max: 1,
 			},
 		  ],
 		},
