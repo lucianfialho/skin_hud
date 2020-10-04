@@ -43,27 +43,32 @@ export default {
         {
           name: 'Father Face',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         },
         {
           name: 'Father ancestry',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         },
         {
           name: 'Mother Face',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         },
         {
           name: 'Mother ancestry',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         },
         {
           name: 'Ancestry dominant gene',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         }]
       },
       {
@@ -72,32 +77,38 @@ export default {
         {
           name: 'Eye state',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         },
         {
           name: 'Eye color',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         },
         {
           name: 'Eyebrows',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         },
         {
           name: 'Eyebrow color',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         },
         {
           name: 'Brow width',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         },
         {
           name: 'Brow shape',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         }]
       },{
         name: 'Nose',
@@ -105,32 +116,38 @@ export default {
         {
             name: 'Nose Width',
             value: 0,
-            min: 1
+            min: 1,
+            max: 10
         },
         {
           name: 'Nose height',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         },
         {
           name: 'Nose length',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         },
         {
           name: 'Nose bridge shift',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         },
         {
           name: 'Nose tip',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         },
         {
           name: 'Nose shift',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         }]
       },
       {
@@ -139,32 +156,38 @@ export default {
         {
           name: 'Chin length',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         },
         {
           name: 'Chin position',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         },
         {
           name: 'Chin width',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         },
         {
           name: 'Chin height',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         },
         {
           name: 'Jaw width',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         },
         {
           name: 'Jaw height',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         }]
       },
       {
@@ -173,17 +196,20 @@ export default {
         {
           name: 'Cheekbone height',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         },
         {
           name: 'Cheekbone width',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         },
         {
           name: 'Cheeks width',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         }]
       },
       {
@@ -192,7 +218,8 @@ export default {
         {
           name: 'Lips width',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         }]
       },
       {
@@ -201,7 +228,8 @@ export default {
         {
           name: 'Neck height',
           value: 0,
-          min: 1
+          min: 1,
+          max: 10
         }]
       }]
     };
