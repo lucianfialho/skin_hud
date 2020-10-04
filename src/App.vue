@@ -23,63 +23,170 @@ export default {
     return {
       leftTabs: [{
         name: 'Parents',
-        properties: [{
-         name: 'Father Face',
-         value: 0 
+        properties: [
+        {
+          name: 'Father Face',
+          value: 0,
+          min: 1
         },
         {
-         name: 'Father ancestry',
-         value: 0 
+          name: 'Father ancestry',
+          value: 0,
+          min: 1
         },
         {
-         name: 'Mother Face',
-         value: 0 
+          name: 'Mother Face',
+          value: 0,
+          min: 1
         },
         {
-         name: 'Mother ancestry',
-         value: 0 
+          name: 'Mother ancestry',
+          value: 0,
+          min: 1
         },
         {
-         name: 'Ancestry dominant gene',
-         value: 0 
+          name: 'Ancestry dominant gene',
+          value: 0,
+          min: 1
         }]
       },
       {
         name: 'Eyes',
-        properties: [{
-         name: 'Eye state',
-         value: 0 
+        properties: [
+        {
+          name: 'Eye state',
+          value: 0,
+          min: 1
         },
         {
-         name: 'Eye color',
-         value: 0 
+          name: 'Eye color',
+          value: 0,
+          min: 1
         },
         {
-         name: 'Eyebrows',
-         value: 0 
+          name: 'Eyebrows',
+          value: 0,
+          min: 1
         },
         {
-         name: 'Mother ancestry',
-         value: 0 
+          name: 'Eyebrow color',
+          value: 0,
+          min: 1
         },
         {
-         name: 'Ancestry dominant gene',
-         value: 0 
+          name: 'Brow width',
+          value: 0,
+          min: 1
+        },
+        {
+          name: 'Brow shape',
+          value: 0,
+          min: 1
         }]
       },{
-        name: 'Nose'
+        name: 'Nose',
+        properties: [
+        {
+            name: 'Nose Width',
+            value: 0,
+            min: 1
+        },
+        {
+          name: 'Nose height',
+          value: 0,
+          min: 1
+        },
+        {
+          name: 'Nose length',
+          value: 0,
+          min: 1
+        },
+        {
+          name: 'Nose bridge shift',
+          value: 0,
+          min: 1
+        },
+        {
+          name: 'Nose tip',
+          value: 0,
+          min: 1
+        },
+        {
+          name: 'Nose shift',
+          value: 0,
+          min: 1
+        }]
       },
       {
-        name: 'Chin'
+        name: 'Chin',
+        properties: [
+        {
+          name: 'Chin length',
+          value: 0,
+          min: 1
+        },
+        {
+          name: 'Chin position',
+          value: 0,
+          min: 1
+        },
+        {
+          name: 'Chin width',
+          value: 0,
+          min: 1
+        },
+        {
+          name: 'Chin height',
+          value: 0,
+          min: 1
+        },
+        {
+          name: 'Jaw width',
+          value: 0,
+          min: 1
+        },
+        {
+          name: 'Jaw height',
+          value: 0,
+          min: 1
+        }]
       },
       {
-        name: 'Cheek'
+        name: 'Cheek',
+        properties: [
+        {
+          name: 'Cheekbone height',
+          value: 0,
+          min: 1
+        },
+        {
+          name: 'Cheekbone width',
+          value: 0,
+          min: 1
+        },
+        {
+          name: 'Cheeks width',
+          value: 0,
+          min: 1
+        }]
       },
       {
-        name: 'Lips'
+        name: 'Lips',
+        properties: [
+        {
+          name: 'Lips width',
+          value: 0,
+          min: 1
+        }]
       },
       {
-        name: 'Neck'
+        name: 'Neck',
+        properties: [
+        {
+          name: 'Neck height',
+          value: 0,
+          min: 1
+        }]
       }]
     };
   },
