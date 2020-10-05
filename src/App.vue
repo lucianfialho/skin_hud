@@ -13,12 +13,9 @@
 </template>
 
 <script>
-	import HelloWorld from './components/HelloWorld';
-	import Nui from './utils/Nui';
-
 	export default {
 		name: 'app',
-		components: {HelloWorld},
+		components: {},
 		data() {
 			return {
 				showSkinHud: false,
