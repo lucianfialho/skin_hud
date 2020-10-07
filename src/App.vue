@@ -6,7 +6,7 @@
 					<b-tab-item :key="tab.id" :label="tab.label" :value="tab.id" >
 						<template v-for="property in tab.inputs">
 							<b-field :key="property.id" :value="property.id" :label="property.name">
-								<b-slider :min="property.min" :value="property.value" @change="changeCameraOffset(property.camOffset)" :max="property.max" ticks></b-slider>
+								<b-slider :min="property.min" v-model="property.value" :value="property.value" @change="changeSkinOption(property)" :max="property.max" ticks></b-slider>
 							</b-field>
 						</template>
 					</b-tab-item>
@@ -99,8 +99,8 @@
 			sendData (name, data) {
 				axios.post(`http://esx_skin_hud/${name}`, {data: data})
 			},
-			changeCameraOffset (camOffset) {
-				this.sendData('esx_skin_hud:ChangeCamera', camOffset)
+			changeSkinOption (property) {
+				this.sendData('esx_skin_hud:ChangeOption', property)
 			},
 			
 		}
