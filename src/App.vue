@@ -1,9 +1,9 @@
 <template>
 	<div id="app" class="main" v-if="showSkinHud">
 		<section class="left-tabs">
-			<b-tabs v-model="activeTab">
+			<b-tabs v-model="activeTab" @input="changeCameraOffSet">
 				<template v-for="tab in components">
-					<b-tab-item :key="tab.id" :label="tab.label" :value="tab.id" >
+					<b-tab-item :key="tab.id" :label="tab.label" :value="tab.id">
 						<template v-for="property in tab.inputs">
 							<b-field :key="property.id" :value="property.id" :label="property.name">
 								<b-slider :min="property.min" v-model="property.value" :value="property.value" @change="changeSkinOption(property)" :max="property.max" ticks></b-slider>
@@ -103,6 +103,11 @@
 				this.sendData('esx_skin_hud:ChangeOption', property)
 			},
 			
+			changeCameraOffSet () {
+				const {camOffset, zoomOffset} = this.components.find(element => element.id === this.activeTab)
+
+				this.sendData('esx_skin_hud:ChangeCameraOffSet', {camOffset: parseFloat(camOffset), zoomOffset: 0.6})
+			}
 		}
 	};
 </script>
