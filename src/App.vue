@@ -6,7 +6,7 @@
 					<b-tab-item :key="tab.id" :label="tab.label" :value="tab.id">
 						<template v-for="property in tab.inputs">
 							<b-field :key="property.id" :value="property.id" :label="property.name">
-								<b-slider :min="property.min" v-model="property.value" :value="property.value" @change="changeSkinOption(property)" :max="property.max" ticks></b-slider>
+								<b-numberinput :min="property.min" v-model="property.value" :value="property.value" @input="changeSkinOption(property)" :max="property.max"></b-numberinput>
 							</b-field>
 						</template>
 					</b-tab-item>
@@ -32,7 +32,7 @@
 						id: 'face',
 						label: 'Feições',
 						inputs: [],
-						camOffset: '0.65'
+						camOffset: '0.65',
 					},
 					{
 						id: 'body',
@@ -97,7 +97,7 @@
 
 			changeCameraOffSet () {
 				const {camOffset} = this.components.find(element => element.id === this.activeTab)
-				this.sendData('esx_skin_hud:ChangeCameraOffSet', {camOffset: parseFloat(camOffset), zoomOffset: 0.6})
+				this.sendData('esx_skin_hud:ChangeCameraOffSet', {camOffset: parseFloat(camOffset), zoomOffset: 1.5})
 			},
 
 			savePersonSkin ()  {

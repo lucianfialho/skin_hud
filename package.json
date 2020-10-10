@@ -9,6 +9,7 @@
     "prettify": "prettier --write **/*.{js,vue}"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "axios": "^0.20.0",
     "core-js": "^2.6.5",
     "ifdef-loader": "^2.1.2",
